@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Marlin.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.Marlin.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlinkM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="boards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cardreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurationStore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration_adv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DOGMbitmaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dogm_font_data_marlin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dogm_lcd_implementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fastio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_an.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_ca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_de.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_en.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_es.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_eu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_fi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_fr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_it.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_nl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_pl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_pt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="language_ru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LiquidCrystalRus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Marlin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MarlinSerial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="planner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qr_solve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sd2Card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sd2PinMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SdBaseFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SdFatConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SdFatStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SdFatUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SdFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SdInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SdVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Servo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="speed_lookuptable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stepper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="temperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thermistortables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ultralcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ultralcd_implementation_hitachi_HD44780.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ultralcd_st7920_u8glib_rrd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="watchdog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\Configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example_configurations\delta\Configuration_adv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example_configurations\makibox\Configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example_configurations\makibox\Configuration_adv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example_configurations\SCARA\Configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example_configurations\SCARA\Configuration_adv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example_configurations\tvrrug\Round2\Configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="example_configurations\tvrrug\Round2\Configuration_adv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlinkM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cardreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurationStore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="digipot_mcp4451.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiquidCrystalRus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MarlinSerial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Marlin_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="motion_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="planner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qr_solve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sd2Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SdBaseFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SdFatUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SdFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SdVolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Servo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stepper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="temperature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ultralcd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="watchdog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
